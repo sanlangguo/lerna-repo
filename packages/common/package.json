@@ -1,8 +1,8 @@
 {
-  "name": "common",
+  "name": "@mono-repo/common",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "陈宗强 <zongqiang.chen@yintech.cn> (融汇/产品技术中心)",
+  "author": "sanlangguo",
   "homepage": "https://github.com/sanlangguo/lerna-repo#readme",
   "license": "ISC",
   "main": "lib/common.js",

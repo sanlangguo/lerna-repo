@@ -1,0 +1,232 @@
+
+
+.ym-btn-default, .ym-btn-primary {
+  border: none;
+  min-width: 88px;
+  height: 32px;
+  background: #F24C3D;
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ym-btn-dashed {
+  position: relative;
+  min-width: 88px;
+  height: 32px;
+  background: rgba(255,255,255,0);
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #F24C3D;
+}
+
+.ym-btn-dashed::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px dashed #F24C3D;
+}
+
+.ym-btn-hover {
+  min-width: 88px;
+  height: 32px;
+  background: rgba(242,76,61,0.1500);
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #F24C3D;
+}
+
+.ym-btn-action {
+  position: relative;
+  min-width: 88px;
+  height: 32px;
+  background: rgba(255,255,255,0);
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #172B4D;
+}
+
+.ym-btn-action::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #505F79;
+}
+
+.ym-btn-danger {
+  position: relative;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #F24C3D;
+  min-width: 88px;
+  height: 32px;
+  background: rgba(255,255,255,0);
+}
+
+.ym-btn-danger::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #F24C3D;
+}
+
+.ym-btn-warning {
+  position: relative;
+  color: #FF9800;
+  background: rgba(255,255,255,0);
+}
+
+.ym-btn-warning::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #FF9800;
+}
+
+.ym-btn-success {
+  position: relative;
+  color: #009688;
+  background: #FFFFFF;
+}
+
+.ym-btn-success::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #009688;
+}
+
+.ym-btn-main {
+  position: relative;
+  color: #5677FC;
+  background: #FFFFFF;
+}
+
+.ym-btn-main::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #5677FC;
+}
+
+.ym-btn-info {
+  position: relative;
+  color: #505F79;
+  background: #FFFFFF;
+}
+
+.ym-btn-info::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  border-radius: 32px;
+  border: 1px solid #8993A4;
+}
+
+.ym-btn-sm {
+  min-width: 64px;
+  height: 18px;
+  font-size: 12px;
+}
+
+.ym-btn-md {
+  min-width: 84px;
+  height: 23px;
+}
+
+.ym-btn-lg {
+  min-width: 88px;
+  height: 32px;
+}
+
+.ym-btn-default:disabled {
+  background: rgba(242,76,61,0.5000);
+  color: rgba(255,255,255,0.5000);
+}
+
+.ym-btn-action:disabled {
+  background: rgba(255,255,255,0);
+  color: rgba(23,43,77,0.5000);
+}
+
+.ym-btn-action:disabled::after {
+  border: 1px solid rgba(80,95,121,0.5000);
+}
+
+.ym-btn-dashed:disabled {
+  background: rgba(255,255,255,0);
+  color: rgba(242,76,61,0.5000);
+}
+
+.ym-btn-dashed:disabled::after {
+  border: 1px dashed rgba(242,76,61,0.5000);
+}
+
+.ym-btn-danger:disabled {
+  background: rgba(255,255,255,0);
+  color: rgba(242,76,61,0.5000);
+}
+
+.ym-btn-danger:disabled::after {
+  border: 1px solid rgba(242,76,61,0.5000);
+}
+
+.ym-btn-hover:disabled {
+  background: rgba(242,76,61,0.0700);
+  color: rgba(242,76,61,0.5000);
+}

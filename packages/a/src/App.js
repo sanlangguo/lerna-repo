@@ -1,9 +1,11 @@
 import logo from './logo.svg';
+import Button from "@mono-repo/common/components/Button";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Button size="small" type="primary" disabled>测试1</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
